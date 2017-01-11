@@ -30,6 +30,13 @@ export default {
     ],
 
     module: {
+        preLoaders: [
+            {
+                test: /\.js$/,
+                loader: 'eslint?parser=babel-eslint',
+                exclude: /node_modules/,
+            }
+        ],
         loaders: [
             { test: /\.js?$/,
                 loader: 'babel',
