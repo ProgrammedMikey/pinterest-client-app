@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 import * as actions from '../../actions/index';
 import {Link} from 'react-router';
 import spinner from 'react-loader';
-import ImageLoader from 'react-imageloader';
 var Masonry = require('react-masonry-component');
 
 var masonryOptions = {
