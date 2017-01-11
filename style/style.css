@@ -1,0 +1,127 @@
+.imgSize {
+  /*max-height:400px;*/
+  max-width:280px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cardStyle {
+  box-shadow: 0 3px 12px rgba(0,0,0,.23), 0 3px 12px rgba(0,0,0,.16);
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 5px;
+  /*max-width: 400px;*/
+}
+body {
+  background-color: #FFCC00;
+  padding: 20px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: Helvetica, Arial, sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.hero-spacer {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome-height {
+  min-height: 100px;
+}
+
+.hero-feature {
+  margin-bottom: 30px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.loader:before,
+.loader:after,
+.loader {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+  color: #18a8f5;
+  font-size: 10px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 3.5em;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+
+
