@@ -34,7 +34,9 @@ class Posts extends Component {
 
           <div className="card cardStyle" key={post.id}>
               <Link to={"posts/"+post.id}>
+                  <center>
                   <img className="card-img-top" width="240" src={post.body} alt="Book image"> </img>
+                  </center>
               </Link>
               <div className="card-block">
                   <p className="card-title">{ post.title }</p>
