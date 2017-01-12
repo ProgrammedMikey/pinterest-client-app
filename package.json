@@ -22,7 +22,6 @@
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
-    "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
@@ -44,6 +43,7 @@
     "redux-form": "^5.1.3",
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.0.1",
+    "webpack": "^1.12.9",
     "spinkit": "^1.2.5"
   }
 }
