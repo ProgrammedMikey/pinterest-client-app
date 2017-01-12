@@ -53,7 +53,7 @@ class userPosts extends Component {
         }
         return (
             <div className="container">
-                <div className="col-lg-12">
+                <div className="col-12 col-md-auto">
                     <br/>
                     <h3><center>All Pins From This User!!</center></h3>
                     <br/>

@@ -4,7 +4,7 @@ import {browserHistory} from 'react-router';
 import {AUTH_USER,AUTH_ERROR,LOGOUT_USER,FETCH_POST,ADD_POST,POST_SHOW,DELETE_POST,EDIT_POST,
     UPDATE_POST,FETCH_POST_SUCCESS,EDIT_POST_SUCCESS,POST_SHOW_SUCCESS,UPDATE_POST_SUCCESS,
 USER_INFO_SUCCESS,USER_INFO, USER_POST, USER_POST_SUCCESS} from './types';
-const ROOT_URL = 'https://md-pinterest-api.herokuapp.com';
+const ROOT_URL = 'https://md-pinterest-api.herokuapp.com/';
 export function loginUser({email,password}){
   return function(dispatch){
       axios.post(`${ROOT_URL}/api/login`,{email,password})

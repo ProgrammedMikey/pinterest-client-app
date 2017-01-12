@@ -39,7 +39,7 @@ class Posts extends Component {
               <div className="card-block">
                   <p className="card-title">{ post.title }</p>
                   <Link to={"user/"+post.user_id}>
-                      <span className="btn btn-default">by {post.user_name}</span>
+                      <span className="btn btn-secondary">by {post.user_name}</span>
                   </Link>
 
               </div>

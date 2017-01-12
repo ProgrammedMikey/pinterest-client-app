@@ -44,14 +44,14 @@ class Header extends Component {
         return (
             <div>
                 <Navbar color="faded" light>
-                <Link to="/" className="navbar-brand">Pin-It</Link>
+                    <Link to="/" className="navbar-brand">Pin-It</Link>
                     <Nav className="float-right" navbar>
-                <ul className="nav navbar-nav">
-                    {this.renderLinks()}
-                    {this.userInfo()}
+                        <ul className="nav navbar-nav">
+                            {this.renderLinks()}
+                            {this.userInfo()}
 
-                </ul>
-                        </Nav>
+                        </ul>
+                    </Nav>
                 </Navbar>
             </div>
         )

@@ -38,7 +38,7 @@ class PostsShow extends Component{
                 <h4 className="card-title"><center>{ post.title }</center></h4>
 
             <Link to={"user/"+post.user_id}>
-                <span className="label label-default"> By: {post.name} </span>
+                <span className="btn btn-secondary"> By: {post.user_name} </span>
         </Link>
 
         </div>
