@@ -32,7 +32,9 @@ class PostsShow extends Component{
             //     {this.handleDeletePost()}
             // </div>
             <div className="card cardStyle">
+                <center>
                 <img className="card-img-top" src={post.body} alt="Book image"> </img>
+            </center>
 
                 <div className="card-block">
                 <h4 className="card-title"><center>{ post.title }</center></h4>
