@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-// const port = process.env.port || 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use(express.static(__dirname));
 
@@ -10,5 +10,5 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(process.env.port);
+app.listen(PORT);
 console.log('Express server is up');
